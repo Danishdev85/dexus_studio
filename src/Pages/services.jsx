@@ -1,11 +1,11 @@
-import Navbar from "../components/home/navbar";
-import Footer from "../components/home/footer";
+import Navbar from "../Components/Home/navbar";
+import Footer from "../Components/Home/footer";
 
-import ServicesHero from "../components/services/serviceshero";
-import WebSeo from "../components/services/webseo";
-import MetaAutomation from "../components/services/metaautomation";
-import AiToolsDatabase from "../components/services/aitoolsdatabase";
-import ScrapingTroubleshooting from "../components/services/scrapingtroubleshooting";
+import ServicesHero from "../Components/Services/serviceshero";
+import WebSeo from "../Components/Services/webseo";
+import MetaAutomation from "../Components/Services/metaautomation";
+import AiToolsDatabase from "../Components/Services/aitoolsdatabase";
+import ScrapingTroubleshooting from "../Components/Services/scrapingtroubleshooting";
 
 export default function Services() {
   return (

@@ -1,8 +1,8 @@
-import Navbar from "../components/home/navbar";
-import Footer from "../components/home/footer";
+import Navbar from "../Components/Home/navbar";
+import Footer from "../Components/Home/footer";
 
-import PrivacyHero from "../components/legal/privacyhero";
-import PrivacyContent from "../components/legal/privacycontent";
+import PrivacyHero from "../Components/Legal/privacyhero";
+import PrivacyContent from "../Components/Legal/privacycontent";
 
 export default function PrivacyPolicy() {
   return (

@@ -1,22 +1,22 @@
 import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/home/navbar";
-import Hero from "./components/home/hero";
-import Stats from "./components/home/stats";
-import Services from "./components/home/services";
-import Industries from "./components/home/industries";
-import Approach from "./components/home/approach";
-import AIInnovation from "./components/home/aiinnovation";
-import CTA from "./components/home/cta";
-import Footer from "./components/home/footer";
+import Navbar from "./Components/Home/navbar";
+import Hero from "./Components/Home/hero";
+import Stats from "./Components/Home/stats";
+import Services from "./Components/Home/services";
+import Industries from "./Components/Home/industries";
+import Approach from "./Components/Home/approach";
+import AIInnovation from "./Components/Home/AIinnovation";
+import CTA from "./Components/Home/CTA";
+import Footer from "./Components/Home/footer";
 
 
-import About from "./pages/about";
-import ServicesPage from "./pages/services";
-import PrivacyPolicy from "./pages/privacypolicy";
-import TermsOfService from "./pages/termsofservice";
-import Contact from "./pages/contact";
-import IndustriesPage from "./pages/industries";
+import About from "./Pages/About";
+import ServicesPage from "./Pages/services";
+import PrivacyPolicy from "./Pages/privacypolicy";
+import TermsOfService from "./Pages/termsofservice";
+import Contact from "./Pages/contact";
+import IndustriesPage from "./Pages/industries";
 
 function Home() {
   return (
