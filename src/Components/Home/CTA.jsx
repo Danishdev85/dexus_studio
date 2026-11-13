@@ -107,7 +107,7 @@ function CTA() {
           className="
             relative
             rounded-[40px]
-            p-10
+            p-8
             md:p-16
             text-center
             overflow-hidden
@@ -146,8 +146,10 @@ function CTA() {
     className="
       text-white/80
       uppercase
-      tracking-[0.3em]
-      text-sm
+      tracking-[0.22em]
+      sm:tracking-[0.3em]
+      text-xs
+      sm:text-sm
       font-semibold
     "
   >
@@ -160,7 +162,8 @@ function CTA() {
 
             <h2 className="
               mt-5
-              text-4xl
+              text-3xl
+              sm:text-4xl
               md:text-6xl
               font-bold
               text-white

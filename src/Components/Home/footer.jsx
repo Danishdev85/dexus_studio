@@ -110,7 +110,7 @@ const socials = [
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: .8 }}
           viewport={{ once: true }}
-          className="relative overflow-hidden rounded-[40px] border border-white/10 bg-white/5 p-14 backdrop-blur-xl"
+          className="relative overflow-hidden rounded-[40px] border border-white/10 bg-white/5 p-8 md:p-14 backdrop-blur-xl"
         >
 
           <div className="absolute inset-0 bg-gradient-to-r from-[#7F77DD]/10 via-[#D4537E]/10 to-[#EF9F27]/10" />
@@ -119,13 +119,13 @@ const socials = [
 
             <div>
 
-              <span className="uppercase tracking-[0.35em] text-sm text-[#EF9F27]">
+              <span className="uppercase tracking-[0.25em] md:tracking-[0.35em] text-xs md:text-sm text-[#EF9F27]">
 
                 Let's Build Together
 
               </span>
 
-              <h2 className="mt-5 text-5xl font-bold leading-tight">
+              <h2 className="mt-5 text-3xl md:text-5xl font-bold leading-tight">
 
                 Ready to Build
                 <span className="block bg-gradient-to-r from-[#7F77DD] via-[#D4537E] to-[#EF9F27] bg-clip-text text-transparent">
@@ -146,7 +146,7 @@ const socials = [
 
             <Link
               to="/contact"
-              className="group flex items-center gap-4 rounded-2xl bg-gradient-to-r from-[#7F77DD] via-[#D4537E] to-[#8b0080] px-10 py-5 text-lg font-semibold shadow-2xl transition duration-300 hover:scale-105"
+              className="group flex w-full items-center justify-center gap-4 rounded-2xl bg-gradient-to-r from-[#7F77DD] via-[#D4537E] to-[#8b0080] px-5 py-4 text-base font-semibold shadow-2xl transition duration-300 hover:scale-105 lg:w-auto lg:px-10 lg:py-5 lg:text-lg"
             >
 
               Schedule Consultation

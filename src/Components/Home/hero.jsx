@@ -205,21 +205,7 @@ export default function Hero() {
         >
 
 
-          <div className="
-            inline-flex
-            px-5
-            py-2
-            rounded-full
-            border
-            border-[#7F77DD]/30
-            bg-[#7F77DD]/10
-            backdrop-blur-md
-            text-sm
-            mb-6
-            text-[#3C3489]
-          ">
-            Providing best Software Solutions for your business
-          </div>
+          
 
 
 
