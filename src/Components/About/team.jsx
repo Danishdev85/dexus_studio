@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { FaLinkedinIn } from "react-icons/fa";
 
-import danish from "../../assets/team/danish.png";
-import sameer from "../../assets/team/sameer.png";
-import ahmad from "../../assets/team/ahmad.png";
-import haroon from "../../assets/team/haroon.png";
-import ali from "../../assets/team/ali.png";
+import danish from "../../assets/team/danish.webp";
+import sameer from "../../assets/team/sameer.webp";
+import ahmad from "../../assets/team/ahmad.webp";
+import haroon from "../../assets/team/haroon.webp";
+import ali from "../../assets/team/ali.webp";
 
 
 

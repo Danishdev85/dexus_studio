@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+/* Mobile performance (2026-11-14): heavy blur effects make phone browsers
+   glitch and paint blank while scrolling. Cap them on small screens only;
+   desktop rendering is unchanged. */
+@media (max-width: 767px) {
+  [class*=" blur-["],
+  [class^="blur-["] {
+    filter: blur(44px) !important;
+  }
+  [class*="backdrop-blur"] {
+    -webkit-backdrop-filter: blur(8px) !important;
+    backdrop-filter: blur(8px) !important;
+  }
+}

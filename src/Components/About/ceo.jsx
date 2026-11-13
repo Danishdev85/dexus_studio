@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ceoImage from "../../assets/images/ceo.png";
+import ceoImage from "../../assets/images/ceo.webp";
 
 const CEO = () => {
   return (

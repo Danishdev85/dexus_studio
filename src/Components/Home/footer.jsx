@@ -64,7 +64,7 @@ const socials = [
             duration: 14,
             repeat: Infinity,
           }}
-          className="absolute -left-48 -top-48 h-[550px] w-[550px] rounded-full bg-[#7F77DD]/20 blur-[180px]"
+          className="hidden md:block absolute -left-48 -top-48 h-[550px] w-[550px] rounded-full bg-[#7F77DD]/20 blur-[180px]"
         />
 
         <motion.div
@@ -76,7 +76,7 @@ const socials = [
             duration: 16,
             repeat: Infinity,
           }}
-          className="absolute right-0 top-0 h-[600px] w-[600px] rounded-full bg-[#D4537E]/15 blur-[190px]"
+          className="hidden md:block absolute right-0 top-0 h-[600px] w-[600px] rounded-full bg-[#D4537E]/15 blur-[190px]"
         />
 
         <motion.div
@@ -87,7 +87,7 @@ const socials = [
             duration: 10,
             repeat: Infinity,
           }}
-          className="absolute bottom-0 left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-[#EF9F27]/10 blur-[170px]"
+          className="hidden md:block absolute bottom-0 left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-[#EF9F27]/10 blur-[170px]"
         />
 
         <div

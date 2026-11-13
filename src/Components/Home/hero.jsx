@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "../../assets/images/circle logo dexus.png";
+import heroImage from "../../assets/images/circle-logo-dexus.webp";
 import { Link } from "react-router-dom";
 
 export default function Hero() {
@@ -143,6 +143,7 @@ export default function Hero() {
           }}
 
           className="
+            hidden md:block
             absolute
             w-1
             h-1

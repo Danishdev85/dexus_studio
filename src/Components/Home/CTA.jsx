@@ -52,6 +52,7 @@ function CTA() {
           }}
 
           className="
+            hidden md:block
             absolute
             w-2
             h-2
