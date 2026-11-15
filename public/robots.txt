@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://danishdev85.github.io/dexus_studio/sitemap.xml
