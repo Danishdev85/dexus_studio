@@ -3,8 +3,10 @@ import Footer from "../Components/Home/footer";
 
 import TermsHero from "../Components/Legal/termshero";
 import TermsContent from "../Components/Legal/termscontent";
+import { usePageMeta } from "../seo";
 
 export default function TermsOfService() {
+  usePageMeta("Terms of Service | Dexus Studios", "The terms that apply when you use the Dexus Studios website and our software services.");
   return (
     <>
       <Navbar />

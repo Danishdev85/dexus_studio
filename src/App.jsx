@@ -17,8 +17,10 @@ import PrivacyPolicy from "./Pages/privacypolicy";
 import TermsOfService from "./Pages/termsofservice";
 import Contact from "./Pages/contact";
 import IndustriesPage from "./Pages/industries";
+import { usePageMeta } from "./seo";
 
 function Home() {
+  usePageMeta("Dexus Studios — Websites, AI Agents & Custom Software", "Dexus Studios builds websites, AI agents, online stores and custom software for small businesses. Complete online solutions — designed, built and managed for you.");
   return (
     <>
       <Navbar />

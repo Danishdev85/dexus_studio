@@ -327,7 +327,7 @@ export default function Hero() {
 
               src={heroImage}
 
-              alt="Dexus Studio"
+              alt="Dexus Studios — websites, AI agents and custom software for businesses"
 
               className="
                 rounded-2xl
